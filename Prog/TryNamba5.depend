@@ -1,0 +1,142 @@
+# depslib dependency file v1.0
+1590078814 source:e:\some\repos\c++ repos\trynamba5\main.cpp
+	<iostream>
+	<Windows.h>
+	"Processor.h"
+	"Graphic.h"
+	"Central.h"
+
+1590121321 e:\some\repos\c++ repos\trynamba5\include\processor.h
+	<iostream>
+
+1590121321 source:e:\some\repos\c++ repos\trynamba5\src\processor.cpp
+	<iostream>
+	"Processor.h"
+	<string.h>
+	<iomanip>
+
+1590083527 source:e:\some\repos\c++ repos\trynamba5\src\graphic.cpp
+	"Graphic.h"
+	<iostream>
+
+1590088947 e:\some\repos\c++ repos\trynamba5\include\graphic.h
+	<iostream>
+	<Processor.h>
+
+1590082585 source:e:\some\repos\c++ repos\trynamba5\src\central.cpp
+	"Central.h"
+	<iostream>
+
+1590121585 e:\some\repos\c++ repos\trynamba5\include\central.h
+	<Processor.h>
+
+1590121540 source:e:\some\repos\c++ repos\trynamba5\src\desktop.cpp
+	"Desktop.h"
+	<string.h>
+
+1590089062 e:\some\repos\c++ repos\trynamba5\include\desktop.h
+	<Central.h>
+
+1590121540 source:e:\some\repos\c++ repos\trynamba5\src\server.cpp
+	"Server.h"
+
+1590091299 e:\some\repos\c++ repos\trynamba5\include\server.h
+	<Central.h>
+
+1590121540 source:e:\some\repos\c++ repos\trynamba5\src\rtx.cpp
+	"RTX.h"
+
+1590121562 e:\some\repos\c++ repos\trynamba5\include\rtx.h
+	<Graphic.h>
+
+1590121540 source:e:\some\repos\c++ repos\trynamba5\src\dx.cpp
+	"DX.h"
+
+1590121572 e:\some\repos\c++ repos\trynamba5\include\dx.h
+	<Graphic.h>
+
+1591331673 source:c:\users\juzuu\desktop\Учёба\курсовая оп\aaa\trynamba5 - копия\main.cpp
+	<fstream>
+	<iostream>
+	<iomanip>
+	<windows.h>
+	"menu.h"
+
+1591462070 c:\users\juzuu\desktop\Учёба\курсовая оп\aaa\trynamba5 - копия\include\processor.h
+	<iostream>
+
+1591462040 c:\users\juzuu\desktop\Учёба\курсовая оп\aaa\trynamba5 - копия\include\graphic.h
+	<iostream>
+	<Processor.h>
+
+1591462040 c:\users\juzuu\desktop\Учёба\курсовая оп\aaa\trynamba5 - копия\include\central.h
+	<Processor.h>
+
+1591461990 c:\users\juzuu\desktop\Учёба\курсовая оп\aaa\trynamba5 - копия\include\desktop.h
+	<Central.h>
+
+1591461990 c:\users\juzuu\desktop\Учёба\курсовая оп\aaa\trynamba5 - копия\include\server.h
+	<Central.h>
+
+1591461990 c:\users\juzuu\desktop\Учёба\курсовая оп\aaa\trynamba5 - копия\include\rtx.h
+	"list.h"
+	<Graphic.h>
+
+1591461990 c:\users\juzuu\desktop\Учёба\курсовая оп\aaa\trynamba5 - копия\include\dx.h
+	<Graphic.h>
+
+1591298645 source:c:\users\juzuu\desktop\Учёба\курсовая оп\aaa\trynamba5 - копия\src\central.cpp
+	"Central.h"
+	<iostream>
+
+1591298645 source:c:\users\juzuu\desktop\Учёба\курсовая оп\aaa\trynamba5 - копия\src\desktop.cpp
+	"Desktop.h"
+	<string.h>
+
+1591299137 source:c:\users\juzuu\desktop\Учёба\курсовая оп\aaa\trynamba5 - копия\src\dx.cpp
+	"DX.h"
+
+1591298645 source:c:\users\juzuu\desktop\Учёба\курсовая оп\aaa\trynamba5 - копия\src\graphic.cpp
+	"Graphic.h"
+	<iostream>
+
+1591299137 source:c:\users\juzuu\desktop\Учёба\курсовая оп\aaa\trynamba5 - копия\src\processor.cpp
+	<iostream>
+	"Processor.h"
+	<string.h>
+	<iomanip>
+
+1591298645 source:c:\users\juzuu\desktop\Учёба\курсовая оп\aaa\trynamba5 - копия\src\rtx.cpp
+	"RTX.h"
+
+1591298645 source:c:\users\juzuu\desktop\Учёба\курсовая оп\aaa\trynamba5 - копия\src\server.cpp
+	"Server.h"
+
+1591332593 source:c:\users\juzuu\desktop\Учёба\курсовая оп\aaa\trynamba5 - копия\src\list.cpp
+
+1591460917 c:\users\juzuu\desktop\Учёба\курсовая оп\aaa\trynamba5 - копия\include\list.h
+	<iostream>
+	<iomanip>
+	<windows.h>
+	<string.h>
+	"fstream"
+
+1591460917 c:\users\juzuu\desktop\Учёба\курсовая оп\aaa\trynamba5 - копия\include\menu.h
+	<iostream>
+	<iomanip>
+	<windows.h>
+	"fstream"
+	<iomanip>
+	<math.h>
+	"List.h"
+	"Processor.h"
+	"Graphic.h"
+	"Central.h"
+	"RTX.h"
+	"DX.h"
+	"Desktop.h"
+	"Server.h"
+
+1591460940 source:c:\users\juzuu\desktop\Учёба\курсовая оп\aaa\trynamba5 - копия\src\menu.cpp
+	"menu.h"
+
