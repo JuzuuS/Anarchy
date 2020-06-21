@@ -17,7 +17,7 @@ class Central : public Processor
 
 
 
-    protected:
+    private:
         float Cash;
 
     //private:

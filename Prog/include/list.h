@@ -27,15 +27,15 @@ class List
                 }
         };
 
-        //template <typename T>
-        /*List <T>::*/List ()
+
+        List ()
             {
                 Size = 0;
                 head = NULL;
             }
 
-        /*template <typename T>                                                                            /// Push_back
-        void List <T>::*/push_back (T data)
+                                                                                   /// Push_back
+    void push_back (T data)
             {
                 if (head == NULL)
                 {
@@ -55,8 +55,8 @@ class List
         Size++;
         }
 
-        /*template <typename T>                                                                             /// Pop_front
-        void List <T>::*/pop_front ()
+                                                                                    /// Pop_front
+        void pop_front ()
             {
                 Info *current = this -> head;
 
@@ -66,8 +66,8 @@ class List
                 Size--;
             }
 
-        /*template <typename T>                                                                             /// Pop_back
-        void List <T>::*/pop_back ()
+                                                                                    /// Pop_back
+        void pop_back ()
             {
                 Info *current = this -> head;
 
@@ -101,8 +101,8 @@ class List
                 Size--;
                 }
 
-/*template <typename T>                                                                             /// GetList
-void List <T>::*/GetList ()
+                                                                         /// GetList
+void GetList ()
 {
     Info *current = this -> head;
     int i;
@@ -116,8 +116,8 @@ void List <T>::*/GetList ()
 }
 
 
-/*template <typename T>                                                                               /// ClearList
-void List <T>::*/ClearList ()
+                                                                              /// ClearList
+void ClearList ()
 {
     int i;
     for (i = 0; i < Size; i++)
@@ -129,8 +129,8 @@ void List <T>::*/ClearList ()
     head = NULL;
 }
 
-/*template <typename T>                                                                               /// SaveList
-void List <T>::*/SaveList (List <T> lst, char Namef[50])
+                                                                            /// SaveList
+void SaveList (List <T> lst, char Namef[50])
 {
     const char* s;
 
@@ -150,8 +150,8 @@ void List <T>::*/SaveList (List <T> lst, char Namef[50])
     }
 }
 
-/*template <typename T>                                                                                  /// LoadOneList
-int List <T>::*/LoadOneList (List <T> &lst, char Namef[50], int weight[ ], int num)
+                                                                          /// LoadOneList
+int LoadOneList (List <T> &lst, char Namef[50], int weight[ ], int num)
 {
     const char* s;
     int i;
@@ -182,8 +182,8 @@ int List <T>::*/LoadOneList (List <T> &lst, char Namef[50], int weight[ ], int n
         int GetSize ()
         {return Size;}
 
-/*template <typename T>
-int List <T>::*/SearchName (List <T> &lst, char Namef[50], int weight[ ], int num)
+
+int SearchName (List <T> &lst, char Namef[50], int weight[ ], int num)
 {
     int i; /// —чЄтчик массива
     const char* s; s = Namef;
@@ -223,8 +223,8 @@ int List <T>::*/SearchName (List <T> &lst, char Namef[50], int weight[ ], int nu
         return 56;
 }
 
-/*template <typename T>                                                                                  /// FindList
-void List <T>::*/FindList (int num)
+                                                                                 /// FindList
+void FindList (int num)
 {
     Info* current = head;
     int i;
@@ -233,7 +233,7 @@ void List <T>::*/FindList (int num)
     {
         current = current -> pNew;
     }
-    std::cout << current -> data << std::endl << std::endl;
+    std::cout << current -> data << std::endl;
     }
     private:
         int Size;

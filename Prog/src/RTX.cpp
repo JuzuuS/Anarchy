@@ -14,6 +14,15 @@ void RTX::SetAll(){
     SetMemBus();
 }
 
+void RTX::GetAll(){
+    GetName();
+    GetCores();
+    GetTDP();
+    GetFreq();
+    GetGMemory();
+    GetMemBus();
+}
+
 void RTX::SetMemBus(){
     std::cout << "¬ведите шину пам€ти: ";
     std::cin >> MemBus;

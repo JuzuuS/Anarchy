@@ -18,6 +18,15 @@ void DX::SetAll(){
     SetDXVersion();
 }
 
+void DX::GetAll(){
+    GetName();
+    GetCores();
+    GetTDP();
+    GetFreq();
+    GetGMemory();
+    GetDXVersion();
+}
+
 void DX::SetDXVersion(){
     std::cout << "¬ведите версию DirectX: ";
     std::cin >> DXVersion;

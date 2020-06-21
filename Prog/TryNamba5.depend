@@ -140,3 +140,88 @@
 1591460940 source:c:\users\juzuu\desktop\”чЄба\курсова€ оп\aaa\trynamba5 - копи€\src\menu.cpp
 	"menu.h"
 
+1591331673 source:c:\users\juzuu\desktop\”чЄба\курсова€ оп\ћќя\prog\main.cpp
+	<fstream>
+	<iostream>
+	<iomanip>
+	<windows.h>
+	"menu.h"
+
+1591460917 c:\users\juzuu\desktop\”чЄба\курсова€ оп\ћќя\prog\include\menu.h
+	<iostream>
+	<iomanip>
+	<windows.h>
+	"fstream"
+	<iomanip>
+	<math.h>
+	"List.h"
+	"Processor.h"
+	"Graphic.h"
+	"Central.h"
+	"RTX.h"
+	"DX.h"
+	"Desktop.h"
+	"Server.h"
+
+1592726489 c:\users\juzuu\desktop\”чЄба\курсова€ оп\ћќя\prog\include\list.h
+	<iostream>
+	<iomanip>
+	<windows.h>
+	<string.h>
+	"fstream"
+
+1592726947 c:\users\juzuu\desktop\”чЄба\курсова€ оп\ћќя\prog\include\processor.h
+	<iostream>
+
+1592722295 c:\users\juzuu\desktop\”чЄба\курсова€ оп\ћќя\prog\include\graphic.h
+	<iostream>
+	<Processor.h>
+
+1592722295 c:\users\juzuu\desktop\”чЄба\курсова€ оп\ћќя\prog\include\central.h
+	<Processor.h>
+
+1592725920 c:\users\juzuu\desktop\”чЄба\курсова€ оп\ћќя\prog\include\rtx.h
+	"list.h"
+	<Graphic.h>
+
+1592725920 c:\users\juzuu\desktop\”чЄба\курсова€ оп\ћќя\prog\include\dx.h
+	<Graphic.h>
+
+1592726489 c:\users\juzuu\desktop\”чЄба\курсова€ оп\ћќя\prog\include\desktop.h
+	<Central.h>
+
+1592725528 c:\users\juzuu\desktop\”чЄба\курсова€ оп\ћќя\prog\include\server.h
+	<Central.h>
+
+1591298645 source:c:\users\juzuu\desktop\”чЄба\курсова€ оп\ћќя\prog\src\central.cpp
+	"Central.h"
+	<iostream>
+
+1592726693 source:c:\users\juzuu\desktop\”чЄба\курсова€ оп\ћќя\prog\src\desktop.cpp
+	"Desktop.h"
+	<string.h>
+
+1592722743 source:c:\users\juzuu\desktop\”чЄба\курсова€ оп\ћќя\prog\src\dx.cpp
+	"DX.h"
+
+1591298645 source:c:\users\juzuu\desktop\”чЄба\курсова€ оп\ћќя\prog\src\graphic.cpp
+	"Graphic.h"
+	<iostream>
+
+1591332593 source:c:\users\juzuu\desktop\”чЄба\курсова€ оп\ћќя\prog\src\list.cpp
+
+1592726489 source:c:\users\juzuu\desktop\”чЄба\курсова€ оп\ћќя\prog\src\menu.cpp
+	"menu.h"
+
+1592726693 source:c:\users\juzuu\desktop\”чЄба\курсова€ оп\ћќя\prog\src\processor.cpp
+	<iostream>
+	"Processor.h"
+	<string.h>
+	<iomanip>
+
+1592722743 source:c:\users\juzuu\desktop\”чЄба\курсова€ оп\ћќя\prog\src\rtx.cpp
+	"RTX.h"
+
+1592722743 source:c:\users\juzuu\desktop\”чЄба\курсова€ оп\ћќя\prog\src\server.cpp
+	"Server.h"
+

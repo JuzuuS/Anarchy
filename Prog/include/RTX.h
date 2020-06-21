@@ -15,29 +15,30 @@ class RTX : public Graphic
     public:
         RTX();
         void SetAll();
+        void GetAll();
 
         void SetMemBus();
         int GetMemBus();
 
-        friend std::ostream & operator << (std::ostream &out, RTX &r)
+        friend std::ostream& operator << (std::ostream &out, RTX &r)
         {
             out << "\nИмя: " << r.GetName ()
-            << "\nКол-во параметров: " << r.GetCores ()
-            << "\nТочность измерения: " << r.GetTDP ()
-            << "\nЕденицы измерения: " << r.GetFreq ()
-            << "\nПредел измерения: " << r.GetGMemory ()
-            << "\nЦена одного деления: " << r.GetMemBus ();
+            << "\nКол-во ядер: " << r.GetCores ()
+            << "\nТеплопакет: " << r.GetTDP ()
+            << "\nЧастота: " << r.GetFreq ()
+            << "\nКол-во памяти: " << r.GetGMemory ()
+            << "\nПропускная способность: " << r.GetMemBus ();
 
             return out;
         }
 
 
 
-    protected:
+    private:
         int MemBus;
 
     //private:
-};
+    };
 }
 
 #endif // RTX_H

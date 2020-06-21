@@ -16,6 +16,15 @@ void Server::SetAll(){
     SetMemChannels();
 }
 
+void Server::GetAll(){
+    GetName();
+    GetCores();
+    GetTDP();
+    GetFreq();
+    GetCash();
+    GetMemChannels();
+}
+
 int Server::GetMemChannels(){
     return MemChannels;
 }
