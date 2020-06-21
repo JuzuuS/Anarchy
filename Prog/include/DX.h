@@ -13,31 +13,31 @@ class DX : public Graphic
         DX();
 
         void SetAll();
+        void GetAll();
 
         void SetDXVersion();
         float GetDXVersion();
 
-        friend std::ostream & operator << (std::ostream &out, DX &x)
+
+
+        friend std::ostream& operator << (std::ostream &out, DX &x)
         {
             out << "\nИмя: " << x.GetName ()
-            << "\nКол-во параметров: " << x.GetCores ()
-            << "\nТочность измерения: " << x.GetTDP ()
-            << "\nЕденицы измерения: " << x.GetFreq ()
-            << "\nПредел измерения: " << x.GetGMemory ()
-            << "\nЦена одного деления: " << x.GetDXVersion ();
+            << "\nКол-во ядер: " << x.GetCores ()
+            << "\nТеплопакет: " << x.GetTDP ()
+            << "\nЧастота: " << x.GetFreq ()
+            << "\nКол-во памяти: " << x.GetGMemory ()
+            << "\nВерсия DirectX: " << x.GetDXVersion ();
 
             return out;
         }
 
 
-
-    protected:
+    private:
         float DXVersion;
 
 
-
-    //private:
-};
+    };
 }
 
 #endif // DX_H

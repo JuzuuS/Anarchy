@@ -303,10 +303,10 @@ void menu::Menu ()                                                              
 
 void menu::ClassChoice ()
 {
-    std::cout << "1. Линейка" << std::endl;
-    std::cout << "2. Транспортир" << std::endl;
-    std::cout << "3. Вольтметр" << std::endl;
-    std::cout << "4. Амперметр" << std::endl << std::endl;
+    std::cout << "1. Домашний" << std::endl;
+    std::cout << "2. Серверный" << std::endl;
+    std::cout << "3. DX" << std::endl;
+    std::cout << "4. RTX" << std::endl << std::endl;
 }
 
 int menu::GetFileSize (char Namef[50])

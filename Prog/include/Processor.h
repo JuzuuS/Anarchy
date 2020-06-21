@@ -9,7 +9,6 @@ class Processor
 {
     public:
         Processor();
-       // virtual void SetAll ();
 
         void SetName();
         const char* GetName();
@@ -25,14 +24,14 @@ class Processor
 
 
 
-    protected:
+    private:
         char Name[30];
         int Cores;
         float TDP;
         float Frequency;
 
-    //private:
-};
+
+    };
 }
 
 #endif PROCESSOR_H

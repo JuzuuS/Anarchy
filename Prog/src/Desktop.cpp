@@ -16,6 +16,15 @@ void Desktop::SetAll(){
     SetMemType();
 }
 
+void Desktop::GetAll(){
+    GetName();
+    GetCores();
+    GetTDP();
+    GetFreq();
+    GetCash();
+    GetMemType();
+}
+
 void Desktop::SetMemType(){
     std::cout << "Введите тип оперативной памяти: ";
     std::cin >> MemType;
@@ -24,7 +33,7 @@ void Desktop::SetMemType(){
 const char* Desktop::GetMemType(){
     const char* memtype;
     memtype = MemType;
-    return MemType;
-}
+    return memtype;
+    }
 }
 

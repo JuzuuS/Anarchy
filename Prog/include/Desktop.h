@@ -11,28 +11,28 @@ class Desktop : public Central
     public:
         Desktop();
         void SetAll();
+        void GetAll();
 
         void SetMemType();
         const char* GetMemType();
 
-        friend std::ostream & operator << (std::ostream &out, Desktop &d)
+        friend std::ostream& operator << (std::ostream &out, Desktop &d)
         {
             out << "\nИмя: " << d.GetName ()
-            << "\nКол-во параметров: " << d.GetCores ()
-            << "\nТочность измерения: " << d.GetTDP ()
-            << "\nЕденицы измерения: " << d.GetFreq ()
-            << "\nПредел измерения: " << d.GetCash ()
-            << "\nЦена одного деления: " << d.GetMemType ();
+            << "\nКол-во ядер: " << d.GetCores ()
+            << "\nТеплопакет: " << d.GetTDP ()
+            << "\nЧастота: " << d.GetFreq ()
+            << "\nКэш: " << d.GetCash ()
+            << "\nТип Памяти: " << d.GetMemType ();
 
             return out;
         }
 
 
 
-    protected:
+    private:
         char MemType[10];
 
-   // private:
 };
 }
 

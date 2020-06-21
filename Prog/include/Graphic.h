@@ -19,7 +19,7 @@ class Graphic : public Processor
         float GetGMemory();
 
 
-    protected:
+    private:
         float GMemory;
 
     //private:
